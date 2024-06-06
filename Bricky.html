@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Bricky Company</title>
+    <meta name="Website" content="Calculate yor bricks">
+  </head>
+  <body>
+
+  
+  <nav>
+    <img src="bricky.png" alt="logo" >
+    <h1 id="logo">Bricky</h1>
+  <ol id="navi">
+    <li><a href="Quote.html">Qoute</a></li>
+    </div>
+    </li>
+    <li><a class="active" href="Bricky.html">Home</a></li>
+  </ol>
+ </nav>
+
+<div class="container">
+  <h1>Brick Wall Calculator</h1>
+  <div class="input-group">
+      <label for="brickWidth">Brick Width (in cm):</label>
+      <input type="number" id="brickWidth" min="1">
+  </div>
+  <div class="input-group">
+      <label for="brickHeight">Brick Height (in cm):</label>
+      <input type="number" id="brickHeight" min="1">
+  </div>
+  <div class="input-group">
+      <label for="wallWidth">Wall Width (in cm):</label>
+      <input type="number" id="wallWidth" min="1">
+  </div>
+  <div class="input-group">
+      <label for="wallHeight">Wall Height (in cm):</label>
+      <input type="number" id="wallHeight" min="1">
+  </div>
+  <button onclick="calculateBricks()">Calculate</button>
+  <p id="result"></p>
+</div>
+
+<section><h2>Remember: <br><br> 
+  The standard size of a brick is 239mm x 76mm<br>
+  For every 1 meter there is 100 centimeter in that meter<br>
+  For every 1 centimeter the is 0.1 milimeters in that centimeter<br>
+</h2></section>
+    <iframe width="560" height="315"  id="video" src="https://www.youtube.com/embed/4uKjIT4xtW8?si=tm-UGA1VTuHxbqQr" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+  <p id="para1">Learn more on the history of bricks<br>
+    and how they are used  in todays <br>society !</p>
+
+    <p id="para2">Presented by: <br> The Forterra company</p>
+
+<script src="Brick.js" ></script>
+<footer>
+<span>&copy2023 of Bricky Company <span>
+</footer>
+ </body>
+
+</html>
